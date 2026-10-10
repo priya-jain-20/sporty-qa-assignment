@@ -53,9 +53,8 @@ api/betting_req.py    request object and shared session
 pages/                page objects; each page owns its XPath locators
 utils/money.py        euro amounts to two decimal places
 models.py             slip, receipt, and match values
-tests/ui/             TC-01 browser journey
-tests/api/            TC-03 insufficient-balance rule
-tests/conftest.py     Chrome and the balance-reset fixture
+tests/ui/conftest.py  Chrome and the balance reset for the browser test
+tests/api/conftest.py API fixtures only; this suite does not open Chrome
 ```
 
 Replace a locator in the page file that owns it, and paths in `api/client.py`, when the UI or API changes. Tests call page objects and the client; they do not contain selectors or URLs.

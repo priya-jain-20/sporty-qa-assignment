@@ -182,3 +182,13 @@ Defects found while executing the top scenarios and a short pass around bet plac
 **Evidence:** The receipt in the Bug 1 screenshot lists match, stake, odds, and payout, and does not name the selection.
 
 ![Bug 6: receipt without a selection](../screenshots/Bug1.png)
+
+## Additional information
+
+Seen on a further pass around the match list and filters. These are not written up as separate bugs above.
+
+- The match card shows the date and does not show the kickoff time.
+- An odds filter with the minimum above the maximum, for example 4.45 to 2.30, is accepted and the list goes empty, with no message that the range is invalid.
+- A match whose kickoff is already past is still listed, and a bet on it can be placed.
+- After a filter leaves only a few cards, or none, the list can still say 103 matches.
+- The odds filter stops near 10.00, while the specification allows odds up to 1000.00. No catalog price above 10.00 was available to confirm that.

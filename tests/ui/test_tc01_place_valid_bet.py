@@ -5,7 +5,7 @@ import re
 import pytest
 
 from config.config import CURRENCY, INITIAL_BALANCE, STAKE
-from models import MatchSelection, Receipt, SlipState
+from model import MatchSelection, Receipt, SlipState
 from pages.bet_slip import BetSlip
 from utils.money import eur, potential_payout
 

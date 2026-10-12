@@ -52,7 +52,7 @@ api/client.py         HTTP client and endpoint paths
 api/betting_req.py    request object and shared session
 pages/                page objects; each page owns its XPath locators
 utils/money.py        euro amounts to two decimal places
-models.py             slip, receipt, and match values
+model/models.py       slip, receipt, and match values
 tests/ui/conftest.py  Chrome and the balance reset for the browser test
 tests/api/conftest.py API fixtures only; this suite does not open Chrome
 ```

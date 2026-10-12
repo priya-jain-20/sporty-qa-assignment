@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from models import SlipState
+from model import SlipState
 from pages.base_page import BasePage
 from utils.money import parse_amount
 

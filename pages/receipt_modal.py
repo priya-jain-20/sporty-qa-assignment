@@ -2,7 +2,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
-from models import Receipt
+from model import Receipt
 from pages.base_page import BasePage
 from utils.money import parse_amount
 

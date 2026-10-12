@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 
-from models import MatchSelection
+from model import MatchSelection
 from pages.base_page import BasePage
 from utils.money import parse_amount
 
